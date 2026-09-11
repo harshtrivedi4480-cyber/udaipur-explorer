@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://udaipurexplorer.example.com/sitemap.xml
