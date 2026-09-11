@@ -123,127 +123,12 @@ export const hotels: Hotel[] = [
     proximity: 'On Lake Pichola',
     image: '/images/places/leela-palace-meragi.webp',
   },
-
-  {
-    id: 'h7',
-    slug: 'fateh-garh',
-    name: 'Fateh Garh',
-    category: 'Heritage',
-    location: 'Hilltop near Fateh Sagar Lake',
-    latitude: 24.6089,
-    longitude: 73.6614,
-    shortDescription:
-      'A hillside heritage property built into the rock above Fateh Sagar, with views over the lake and city.',
-    highlights: [
-      'Hillside setting above Fateh Sagar',
-      'Heritage-style architecture',
-      'City and lake views',
-    ],
-    priceCategory: 'Mid-range to luxury',
-    proximity: 'Above Fateh Sagar Lake, a short drive from the old city',
-    image:
-      'https://assets.simplotel.com/simplotel/image/upload/w_900%2Ch_600%2Cc_fill%2Cg_auto%2Cq_80%2Cf_auto/fateh-garh-udaipur/resort-facade',
-  },
-
-  {
-    id: 'h8',
-    slug: 'fateh-vilas',
-    name: 'Fateh Vilas',
-    category: 'Boutique',
-    location: 'Near Fateh Sagar Lake',
-    latitude: 24.601,
-    longitude: 73.679,
-    shortDescription:
-      'A smaller boutique property in the Fateh Sagar area, positioned as a quieter alternative to the old-city lakefront hotels.',
-    highlights: [
-      'Fateh Sagar-area location',
-      'Boutique scale',
-    ],
-    priceCategory: 'Mid-range',
-    proximity: 'Near Fateh Sagar Lake',
-    image: '/images/hotels/fateh-vilas-official.jpg',
-  },
-
-  {
-    id: 'h9',
-    slug: 'udaigarh-udaipur',
-    name: 'Udaigarh Udaipur',
-    category: 'Boutique',
-    location: 'Udaipur',
-    latitude: 24.585,
-    longitude: 73.69,
-    shortDescription:
-      'A boutique heritage-style hotel in Udaipur, positioned toward travelers wanting a smaller, more personal property.',
-    highlights: [
-      'Boutique scale',
-      'Heritage-style interiors',
-    ],
-    priceCategory: 'Mid-range',
-    proximity: 'Udaipur city',
-    image: '/images/hotels/udaigarh-udaipur.jpg',
-  },
-
-  {
-    id: 'h10',
-    slug: 'bloom-boutique-lake-pichola',
-    name: 'Bloom Boutique Lake Pichola',
-    category: 'Boutique',
-    location: 'Lake Pichola',
-    latitude: 24.578,
-    longitude: 73.681,
-    shortDescription:
-      'A small boutique stay on Lake Pichola, aimed at travelers wanting a lakefront address at a more modest scale than the palace hotels.',
-    highlights: [
-      'Lake Pichola address',
-      'Boutique, small-property scale',
-    ],
-    priceCategory: 'Mid-range',
-    proximity: 'On Lake Pichola',
-    image: '/images/hotels/bloom-boutique-lake-pichola.jpg',
-  },
-
-  {
-    id: 'h11',
-    slug: 'wyndham-grand-udaipur',
-    name: 'Wyndham Grand Udaipur',
-    category: 'Luxury',
-    location: 'Udaipur',
-    latitude: 24.59,
-    longitude: 73.71,
-    shortDescription:
-      'An international chain hotel in Udaipur, offering the standardized amenities of a global luxury brand.',
-    highlights: [
-      'International chain amenities',
-      'Conference and event facilities',
-    ],
-    priceCategory: 'Luxury',
-    proximity: 'Udaipur city',
-    image: '/images/hotels/wyndham-grand-udaipur.jpg',
-  },
-
-  {
-    id: 'h12',
-    slug: 'ananta-udaipur',
-    name: 'Ananta Udaipur',
-    category: 'Luxury',
-    location: 'Outskirts of Udaipur',
-    latitude: 24.633,
-    longitude: 73.771,
-    shortDescription:
-      'A spa-focused resort property on the outskirts of Udaipur, set apart from the lake circuit for a quieter, resort-style stay.',
-    highlights: [
-      'Spa-focused resort',
-      'Set away from the central lake circuit',
-    ],
-    priceCategory: 'Luxury',
-    proximity: 'Outskirts of Udaipur, a drive from the old city',
-    image: '/images/hotels/ananta-udaipur.jpg',
-  },
 ]
 
 export function getHotelBySlug(slug: string) {
   return hotels.find((h) => h.slug === slug)
 }
+
 
 
 
