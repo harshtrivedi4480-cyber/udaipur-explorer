@@ -99,3 +99,5 @@ site has a real domain.
 
 "Saved" uses `localStorage` only (`src/hooks/useSaved.ts`) — no backend,
 no account required. Clearing browser storage clears saved items.
+
+<img width="1909" height="867" alt="image" src="https://github.com/user-attachments/assets/1dd5658a-11ab-419b-97b9-12b465f3de23" />
